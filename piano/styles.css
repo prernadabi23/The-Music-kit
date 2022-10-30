@@ -1,0 +1,59 @@
+body{
+  background-color: #FAF7F0;
+  background-image: url(images/piano3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Emblema One', cursive;
+}
+
+h1{
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: 'Emblema One', cursive;
+
+}
+
+.drum {
+  outline: none;
+  border: 8px solid black;
+  font-size: 4.4rem;
+  font-family: 'Emblema One', cursive;
+  line-height: 1.6;
+  font-weight: 550;
+  color: black;
+  text-shadow: 3px 0 black;
+  border-radius: 12px;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.head{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FAF7F0;
+}

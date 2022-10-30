@@ -1,0 +1,22 @@
+body{
+  text-align: center;
+  background-color: #EDE4E0;
+  background-image: url(images/bgmain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1{
+  font-size: 6rem;
+  font-family: 'Emblema One', cursive;
+}
+
+a{
+  font-size: 3rem;
+  padding: 20px 20px 20px 20px;
+  display: inline-flex;
+  color: black;
+  text-decoration: none;
+  font-family: 'Emblema One', cursive;
+}
