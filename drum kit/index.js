@@ -14,11 +14,11 @@ function clicking(){
   buttonAnimation(buttonInHTML);
 }
 
-document.addEventListener("keypress",keyboard);
+document.addEventListener("keydown",keyboard);
 
 function keyboard(event){
-   makeSound(event.key);
-   buttonAnimation(event.key);
+   makeSound(event.key.toLowerCase());
+   buttonAnimation(event.key.toLowerCase());
 }
 
 function makeSound(key){
